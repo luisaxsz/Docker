@@ -9,6 +9,7 @@ LABEL maintainer 'ALUNO COD3R'
 #chown -> dono da pasta
 RUN useradd www && \
     mkdir /app && \ 
+    mkdir /log && \
     chown www /log
 
 #Define usuário ativo -> quem vai realizar processos dentro do container
@@ -16,7 +17,7 @@ RUN useradd www && \
 #workdir -> diretorio de trabalho
 #Expor porta -> pode ser remapeada ou não
 USER www
-VOLUME "/log"
+VOLUME /log
 WORKDIR /app
 EXPOSE 8000
 
