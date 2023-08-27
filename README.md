@@ -13,14 +13,14 @@
   * Arquitetura
 * Instalação
 * Uso básico do docker
- * Docker client
- * Docker Hub x Docker Registry
- * Hello world
- * Run, modo iterativo e modo deamon
- * Nomeação de containers
- * Reutilização de containers
- * Rodar container background
- * Mapeamento de portas e volumes
+   * Docker client
+   * Docker Hub x Docker Registry
+   * Hello world
+   * Run, modo iterativo e modo deamon
+   * Nomeação de containers
+   * Reutilização de containers
+   * Rodar container background
+   * Mapeamento de portas e volumes
 * Deixando de ser só usuário
    * Comandos básicos para gerenciamento de imagens
    * Primeiro build
